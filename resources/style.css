@@ -1,0 +1,67 @@
+/*global*/
+*{
+  font-size: 18px;
+}
+
+
+/*header*/
+header{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+
+}
+header p{
+  display: flex;
+  color: white;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+  font-size: 1rem;
+  font-family: helvetica;
+  align-items: center;
+}
+.headerlogo{
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.25rem;
+}
+/*end of header*/
+/*start of main content*/
+main{
+
+}
+.banner{
+  position: relative;
+  bottom: 450px;
+  margin: 9rem;
+  width: 20rem;
+}
+.bannerbgimg{
+  height: 25rem;
+  width: 100%;
+  display: flex;
+
+}
+.bannerh1{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.bannerh2{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.bannerp{
+  color: white;
+  background-color: black;
+  width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  }
